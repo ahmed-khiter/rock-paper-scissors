@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">   
+<head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Game</title>
+</head>
+<body>
+    <div class="container">
+        <h1 style="color: DodgerBlue;">You VS Computer </h1>
+        <div class="flex-box-rps" id="flex-box-rps-div">
+            <img id="rock" src="https://previews.123rf.com/images/julinzy/julinzy1310/julinzy131000173/23262897-hand-sign-of-rock-paper-scissors-game-isolated-vector-on-white-background.jpg" 
+            height="150" width="150" onclick="rpsGame(this)" >
+
+            <img id="paper"
+                src="https://previews.123rf.com/images/julinzy/julinzy1310/julinzy131000180/23262904-hand-sign-of-rock-paper-scissors-game-isolated-vector-on-white-background.jpg"
+                height="150" width="150" onclick="rpsGame(this)">
+
+                <img id="scissors"
+                    src="https://previews.123rf.com/images/julinzy/julinzy1310/julinzy131000181/23262905-hand-sign-of-rock-paper-scissors-game-isolated-vector-on-white-background.jpg"
+                    height="150" width="150" onclick="rpsGame(this)">
+        </div>
+        <button class="btn btn-primary" onclick="Repeate()">Repeate!!</button>
+        <hr>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
